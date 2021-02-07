@@ -233,7 +233,7 @@ class CreateEmployeeComponent extends Component {
                     <div className="row mt-3 mb-3">
                         <div className="card col-md-6 offset-md-3 offset-md-3 bg-light">
                             <h3 className="text-center mt-3">{this.getLabel()}</h3>
-                            {!this.isSuccesful ? <h4 className="text-center text-danger mt-3">Invalid data(maybe this employee already exists)</h4> : ""}
+                            {!this.isSuccesful ? <h4 className="text-center text-danger mt-3">Invalid data(may be this employee already exists)</h4> : ""}
                             <div className="card-body">
                                 <form encType="multipart/form-data">
                                     <div className="form-group">

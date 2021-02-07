@@ -31,13 +31,13 @@ class HeaderComponent extends Component {
                         <div>
                             <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
-                                    <a className={"nav-link "+this.activeLink('/employees')} onClick={this.employees.bind(this)}>List</a>
+                                    <span className={"nav-link cursor-pointer "+this.activeLink('/employees')} onClick={this.employees.bind(this)}>List</span>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={"nav-link "+this.activeLink('/update/new')} onClick={this.update.bind(this)}>Add</a>
+                                    <span className={"nav-link cursor-pointer "+this.activeLink('/update/new')} onClick={this.update.bind(this)}>Add</span>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={"nav-link "+this.activeLink('/department/add')} onClick={this.department.bind(this)}>Department</a>
+                                    <span className={"nav-link cursor-pointer "+this.activeLink('/department/add')} onClick={this.department.bind(this)}>Department</span>
                                 </li>
                             </ul>
                         </div>
