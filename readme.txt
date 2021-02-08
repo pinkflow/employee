@@ -5,7 +5,7 @@
 		Открыть файл target/classes/application.properties;
 		В первой строке подставить данные от своей базы(вместо "localhost:3306" подставить порт, на котором работает база данных, после слеша написать название базы данных);
 		Во второй и третьей строке после равно написать юзернейм и пароль для базы данных;
-		В папке target запустить в консоли команду: java -jar employee-0.0.1-SNAPSHOT.jar --spring.config.location={папка проекта}\target\classes\application.properties
+		В папке target запустить в консоли команду: java -jar employee-0.0.1-SNAPSHOT.jar --spring.config.location={полный путь к папке проекта}\target\classes\application.properties
 		Открыть в браузере http://localhost:8080/
 
 Технологии:
